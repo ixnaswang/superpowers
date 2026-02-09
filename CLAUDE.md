@@ -85,7 +85,7 @@ See `skills/writing-skills/SKILL.md` for complete methodology.
 | File | Purpose |
 |------|---------|
 | `lib/skills-core.js` | Skill discovery, frontmatter parsing, path resolution |
-| `hooks/session-start.sh` | Auto-injects skills at session start |
+| `hooks/session-start.js` | Auto-injects skills at session start (Node.js) |
 | `tests/claude-code/run-skill-tests.sh` | Test runner |
 | `tests/claude-code/test-helpers.sh` | Shared test utilities |
 | `.claude-plugin/plugin.json` | Plugin metadata (version 4.2.0) |
